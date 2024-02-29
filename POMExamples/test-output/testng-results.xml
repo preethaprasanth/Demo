@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assignment9" duration-ms="7854" started-at="2018-03-09T17:16:26Z" finished-at="2018-03-09T17:16:34Z">
+    <groups>
+    </groups>
+    <test name="FBNewToursAndLinkDin" duration-ms="7854" started-at="2018-03-09T17:16:26Z" finished-at="2018-03-09T17:16:34Z">
+      <class name="com.hybrid.tests.LinkDinTest">
+        <test-method status="PASS" signature="GotoURL()[pri:0, instance:com.hybrid.tests.LinkDinTest@41a0aa7d]" name="GotoURL" is-config="true" duration-ms="4249" started-at="2018-03-09T11:16:26Z" finished-at="2018-03-09T11:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GotoURL -->
+        <test-method status="FAIL" signature="LinkDinValidation()[pri:0, instance:com.hybrid.tests.LinkDinTest@41a0aa7d]" name="LinkDinValidation" duration-ms="15" started-at="2018-03-09T11:16:30Z" finished-at="2018-03-09T11:16:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome: LinkDin] but found [LinkedIn: Log In or Sign Up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome: LinkDin] but found [LinkedIn: Log In or Sign Up]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.hybrid.tests.LinkDinTest.LinkDinValidation(LinkDinTest.java:24)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)at java.lang.Thread.run(Unknown Source)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkDinValidation -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.hybrid.tests.LinkDinTest@41a0aa7d]" name="afterClass" is-config="true" duration-ms="2364" started-at="2018-03-09T11:16:30Z" finished-at="2018-03-09T11:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.hybrid.tests.LinkDinTest -->
+      <class name="com.hybrid.tests.NewTOURSTest">
+        <test-method status="PASS" signature="GotoURL()[pri:0, instance:com.hybrid.tests.NewTOURSTest@e350b40]" name="GotoURL" is-config="true" duration-ms="2589" started-at="2018-03-09T11:16:26Z" finished-at="2018-03-09T11:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GotoURL -->
+        <test-method status="FAIL" signature="NewTOURSValidation()[pri:0, instance:com.hybrid.tests.NewTOURSTest@e350b40]" name="NewTOURSValidation" duration-ms="20" started-at="2018-03-09T11:16:28Z" finished-at="2018-03-09T11:16:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome: iii] but found [Welcome: Mercury Tours]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome: iii] but found [Welcome: Mercury Tours]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.hybrid.tests.NewTOURSTest.NewTOURSValidation(NewTOURSTest.java:27)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)at java.lang.Thread.run(Unknown Source)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewTOURSValidation -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.hybrid.tests.NewTOURSTest@e350b40]" name="afterClass" is-config="true" duration-ms="110" started-at="2018-03-09T11:16:28Z" finished-at="2018-03-09T11:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.hybrid.tests.NewTOURSTest -->
+      <class name="com.hybrid.tests.FBTtileTest">
+        <test-method status="PASS" signature="GotoURL()[pri:0, instance:com.hybrid.tests.FBTtileTest@f09733f]" name="GotoURL" is-config="true" duration-ms="5631" started-at="2018-03-09T11:16:26Z" finished-at="2018-03-09T11:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GotoURL -->
+        <test-method status="FAIL" signature="FBTileValidation()[pri:0, instance:com.hybrid.tests.FBTtileTest@f09733f]" name="FBTileValidation" duration-ms="23" started-at="2018-03-09T11:16:31Z" finished-at="2018-03-09T11:16:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Log into Facebook] but found [Facebook - Log In or Sign Up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Log into Facebook] but found [Facebook - Log In or Sign Up]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.hybrid.tests.FBTtileTest.FBTileValidation(FBTtileTest.java:24)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)at java.lang.Thread.run(Unknown Source)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FBTileValidation -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.hybrid.tests.FBTtileTest@f09733f]" name="afterClass" is-config="true" duration-ms="2153" started-at="2018-03-09T11:16:31Z" finished-at="2018-03-09T11:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.hybrid.tests.FBTtileTest -->
+    </test> <!-- FBNewToursAndLinkDin -->
+  </suite> <!-- Assignment9 -->
+</testng-results>

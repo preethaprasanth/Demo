@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Assignment9]">
+  <test name="FBNewToursAndLinkDin(failed)" parallel="classes">
+    <classes>
+      <class name="com.hybrid.tests.NewTOURSTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="NewTOURSValidation"/>
+          <include name="GotoURL"/>
+        </methods>
+      </class> <!-- com.hybrid.tests.NewTOURSTest -->
+      <class name="com.hybrid.tests.LinkDinTest">
+        <methods>
+          <include name="GotoURL"/>
+          <include name="LinkDinValidation"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.hybrid.tests.LinkDinTest -->
+      <class name="com.hybrid.tests.FBTtileTest">
+        <methods>
+          <include name="FBTileValidation"/>
+          <include name="afterClass"/>
+          <include name="GotoURL"/>
+        </methods>
+      </class> <!-- com.hybrid.tests.FBTtileTest -->
+    </classes>
+  </test> <!-- FBNewToursAndLinkDin(failed) -->
+</suite> <!-- Failed suite [Assignment9] -->
